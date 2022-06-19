@@ -1,0 +1,17 @@
+.contact {
+    position: absolute;
+    margin-top: 8em;
+    width: 100%;
+}
+
+.contactList {
+    margin: 1em;
+    padding: 1em;
+    background-color: #a0be78;
+}
+
+img {
+    position: absolute;
+    margin-top: 1em;
+    left: 22em;
+}
