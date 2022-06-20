@@ -9,7 +9,7 @@ const Contact = (props) => {
             {
                 props.data.map((value, key) =>
                     <div key={key} className="contactList">
-                        <img src={value.photo} width="100"/>
+                        <img alt={value.photo} src={value.photo} width="100"/>
                         <p>{value.name}</p>
                         <p>{value.phone}</p>
                         <p>{value.email}</p>
